@@ -1,0 +1,35 @@
+{
+  "author": "HoverTree <http://hovertree.com>",
+  "bugs": {
+    "url": "https://github.com/shangyuxian/easysector/issues"
+  },
+  "contributors": [
+    "Keleyi <http://keleyi.com>",
+    "WuYifan <https://www.npmjs.com/package/easysector>"
+  ],
+  "dependencies": {
+    "jquery": "2.1.4"
+  },
+  "description": "jQuery plugin, UI,HTML5,Sector,easysector,hovertree",
+  "devDependencies": {
+    "jquery": "2.1.4"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "homepage": "http://hovertree.com/texiao/easysector/",
+  "keywords": [
+    "easysector",
+    "jQuery",
+    "jquery-plugin",
+    "UI",
+    "jquery plugin",
+    "hovertree",
+    "html5"
+  ],
+  "license": "MIT",
+  "name": "easysector",
+  "repository": { "type": "git",
+    "url": "https://github.com/shangyuxian/easysector"},
+  "version": "1.0.0"
+}

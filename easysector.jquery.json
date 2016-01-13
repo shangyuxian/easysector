@@ -1,0 +1,37 @@
+﻿{
+"name": "easysector",
+"title": "EasySector jQuery Plugin",
+"description": "A distinctive jQuery plugin.Very simple to use.",
+"keywords": [
+"easysector",
+"hovertree",
+"UI",
+"jquery",
+"jquery-plugin",
+"html5"
+],
+ "version": "1.0.0",
+ "author": {
+"name": "HoverTree",
+"url": "http://hovertree.com"
+},
+"maintainers": [
+{
+"name": "HoverTree",
+"url": "http://hovertree.com"
+}
+],
+"licenses": [
+{
+"type": "MIT",
+"url": "http://hovertree.com/texiao/easysector/license.htm"
+}
+],
+"homepage": "http://hovertree.com/texiao/easysector/",
+"docs": "http://hovertree.com/texiao/easysector/",
+"download": "http://hovertree.com/texiao/easysector/",
+"demo": "http://hovertree.com/texiao/easysector/",
+"dependencies": {
+"jquery": ">=1.9"
+}
+}

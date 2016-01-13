@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>EasySector Demo - HoverTree</title><base target="_blank" />
+	<meta charset="utf-8" />
+    <style>
+        a{color:blue}body{font-family:Helvetica,sans-serif,Arial}
+    </style>
+    <script src="http://hovertree.com/ziyuan/jquery/jquery-2.2.0.min.js"></script>
+    <script src="http://hovertree.com/texiao/easysector/jquery.easysector.1.0.0.js"></script>    
+</head>
+<body>
+    <div style="width:900px;margin:20px auto"><div style="width:100%;text-align:center;font-size:32px">EasySector
+        <br />jQuery Plugin</div>
+       <div style="float:left;width:350px;height:500px"><a href="http://hovertree.com">HoverTree</a>
+        <br /><a href="http://hovertree.com/texiao/easysector/">EasySector Home</a>
+        <br /><a href="https://www.npmjs.com/package/easysector">NPM</a>
+           <br /><a href="https://github.com/shangyuxian/easysector">Github</a><br />
+        </div><div style="float:right;width:500px"><div id="easysector"></div></div> 
+        <div style="width:100%;clear:both;"></div>
+    &copy; hovertree.com
+    </div>
+    <script>
+        var h_items = new Array();
+        h_items[0] = {
+            "h_title": "Chrome",
+            "h_amount": 53,
+            "h_color": "red"
+        }
+        h_items[1] = {
+            "h_title": "FireFox",
+            "h_amount": 16,
+            "h_color": "yellow"
+        }
+        h_items[2] = {
+            "h_title": "IE",
+            "h_amount": 16,            
+            "h_color": "green"
+        }
+        h_items[3] = {
+            "h_title": "Other",
+            "h_amount": 15,
+            "h_color": "blue"
+        }
+        $("#easysector").easysector({
+            "h_items": h_items,
+            "h_title": "Browser Percent",
+            "h_width": 260,
+            "h_borderColor":"silver",
+            "h_poindlength": 0,
+            //"h_showamount": true,
+            "h_backColor":"#eee",
+            "h_recwidth": 20,
+            "h_titlesize": 24,
+            "h_Radii": 125,
+            "h_infosize":16
+        });
+    </script>
+</body>
+</html>
